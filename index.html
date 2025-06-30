@@ -8,7 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-
     <div class="body">
 
       <!-- Navbar -->
@@ -52,37 +51,19 @@
       <div class="jumbotron jumbotron-fluid bg-light" id="About">
         <div class="container text-center scroll-fade-up">
           <div class="row">
-            <div class="col">
-              <div class="experience-box">
-                <div class="row">
-                  <div class="year col">
-                    <p class="exp-num">1+</p>
-                    <p class="exp-desc">Tahun Pengalaman</p>
-                  </div>
-                  <div class="project col">
-                    <p class="exp-num">99+</p>
-                    <p class="exp-desc">Project</p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="About col">
               <p class="about-title">About Me</p>
               <p class="about-desc">
-                Saya adalah mahasiswa aktif program studi Informatika semester 2 yang memiliki ketertarikan dalam pengembangan web dan pemrograman. Saya sedang mendalami HTML, CSS, Bootstrap, dan bahasa C.
+                Saya merupakan mahasiswa aktif Program Studi Informatika semester 2 yang memiliki ketertarikan dalam pengolahan data, pencatatan informasi, dan pengembangan web. 
+                Saya terbiasa menggunakan HTML, CSS, serta sedang mempelajari bahasa pemrograman C dan Bootstrap untuk mendukung efisiensi kerja digital. Saya juga memiliki ketelitian dan komitmen tinggi dalam menangani data secara akurat dan terorganisir.
               </p>
             </div>
           </div>
 
           <div class="row pt-5 contact-icons">
-            <div class="col">
+            <div class="linkedin col">
               <a href="https://www.linkedin.com/in/wisnu-kertopati-20bab331b/">
                 <img src="img/linkedin-logo-transparent-png-25.png" class="contact-img-sm">
-              </a>
-            </div>
-            <div class="col">
-              <a href="https://open.spotify.com/playlist/6guJDYwvrCH854yznUKZzh?si=75bbc3bdc9f646cc">
-                <img src="img/Spotify-Logo.png" class="contact-img">
               </a>
             </div>
             <div class="col">
@@ -224,15 +205,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-      var yakin = confirm("Apakah anda yakin ingin melihat portfolio?");
-      if (yakin){
-        var nama = prompt("Siapa nama anda?");
-        alert("Halo "+nama+ ", Selamat Datang!");
-      } else {
-          alert("Baiklah, sampai jumpa!");
-      }
-
-
       document.getElementById("contactForm").addEventListener("submit", function(event) {
         event.preventDefault();
         const nama = document.getElementById("nameInput").value;
