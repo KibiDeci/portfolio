@@ -208,6 +208,11 @@
     }
     .project-card:hover { border-color:rgba(0,200,255,.25); transform:translateY(-8px); box-shadow:0 20px 60px rgba(0,0,0,.4), 0 0 0 1px rgba(0,200,255,.1); }
     .project-img {
+      height:280px; display:flex; align-items:center;
+      justify-content:center; font-size:3rem; position:relative; overflow:hidden;
+    }
+    .project-img img { width:280px;  object-fit:contain; }
+    .project-img-1 {
       height:180px; display:flex; align-items:center;
       justify-content:center; font-size:3rem; position:relative; overflow:hidden;
     }
@@ -422,7 +427,22 @@
 
       <!-- PROJECT 1 -->
       <div class="project-card reveal reveal-delay-1">
-        <div class="project-img project-img-1">🌐</div>
+        <div class="project-img project-img-1"><img src="img/kibinime-logo.png" alt=""></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+          </div>
+          <h3 class="project-title">Kibify</h3>
+          <p class="project-desc">Kibify is an independent technology brand dedicated to developing and distributing high-quality software products and digital assets. 
+            We specialize in transforming complex technical concepts into ready-to-deploy code solutions designed to accelerate digital business growth.</p>
+          <a href="https://kibify.netlify.app" class="project-link" target="_blank">See The Project →</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-img-1 project-img-1">🌐</div>
         <div class="project-body">
           <div class="project-tags">
             <span class="project-tag">HTML</span>
@@ -434,6 +454,7 @@
           <a href="https://kibideci.github.io/KibiNime/" class="project-link" target="_blank">See The Project →</a>
         </div>
       </div>
+
 
 
     </div>
